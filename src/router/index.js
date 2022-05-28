@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Admin from '../views/AdminView.vue'
 import Login from '../views/LoginView.vue'
 import Welcome from '../views/admin/Welcome.vue'
+import Chapter from '../views/admin/Chapter.vue'
 
 const routes = [
   {
@@ -22,6 +23,10 @@ const routes = [
     children: [{
       path: 'welcome',
       component: Welcome,
+    },
+    {
+      path: 'chapter',
+      component: Chapter,
     }]
   }
 ]
