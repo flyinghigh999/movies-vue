@@ -116,7 +116,7 @@
                             <div class="col-xs-12 col-sm-2">
                                 <div class="text-center">
                                     <img height="150" class="thumbnail inline no-margin-bottom"
-                                        alt="Domain Owner's Avatar" src="ace/assets/images/avatars/profile-pic.jpg" />
+                                        alt="Domain Owner's Avatar" src="../../../public/ace/assets/images/avatars/profile-pic.jpg" />
                                     <br />
                                     <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
                                         <div class="inline position-relative">
@@ -310,7 +310,7 @@
                             <div class="col-xs-12 col-sm-2">
                                 <div class="text-center">
                                     <img height="150" class="thumbnail inline no-margin-bottom"
-                                        alt="Domain Owner's Avatar" src="assets/images/avatars/profile-pic.jpg" />
+                                        alt="Domain Owner's Avatar" src="../../../public/ace/assets/images/avatars/profile-pic.jpg" />
                                     <br />
                                     <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
                                         <div class="inline position-relative">
@@ -504,7 +504,7 @@
                             <div class="col-xs-12 col-sm-2">
                                 <div class="text-center">
                                     <img height="150" class="thumbnail inline no-margin-bottom"
-                                        alt="Domain Owner's Avatar" src="assets/images/avatars/profile-pic.jpg" />
+                                        alt="Domain Owner's Avatar" src="../../../public/ace/assets/images/avatars/profile-pic.jpg" />
                                     <br />
                                     <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
                                         <div class="inline position-relative">
@@ -698,7 +698,7 @@
                             <div class="col-xs-12 col-sm-2">
                                 <div class="text-center">
                                     <img height="150" class="thumbnail inline no-margin-bottom"
-                                        alt="Domain Owner's Avatar" src="assets/images/avatars/profile-pic.jpg" />
+                                        alt="Domain Owner's Avatar" src="../../../public/ace/assets/images/avatars/profile-pic.jpg" />
                                     <br />
                                     <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
                                         <div class="inline position-relative">
@@ -892,7 +892,7 @@
                             <div class="col-xs-12 col-sm-2">
                                 <div class="text-center">
                                     <img height="150" class="thumbnail inline no-margin-bottom"
-                                        alt="Domain Owner's Avatar" src="assets/images/avatars/profile-pic.jpg" />
+                                        alt="Domain Owner's Avatar" src="../../../public/ace/assets/images/avatars/profile-pic.jpg" />
                                     <br />
                                     <div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
                                         <div class="inline position-relative">
@@ -1001,7 +1001,7 @@
 export default {
     name: 'chapter',
     mounted: function() {
-        this.$emit('select',"business-chapter-sidebar")
+        // this.$emit('select',"business-chapter-sidebar")
     }
 }
 </script>
