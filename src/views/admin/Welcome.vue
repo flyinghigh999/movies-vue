@@ -5,6 +5,10 @@
 </template>
 <script>
 export default {
-        name: 'welcome'
+    name: 'welcome',
+    mounted: function() {
+        // this.$parent.activeSidebar("welcome-sidebar");
+        this.$emit('select',"welcome-sidebar")
     }
+}
 </script>
