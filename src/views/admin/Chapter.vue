@@ -998,10 +998,27 @@
 
 </template>
 <script>
+import Http from "../../plugins/axiosInstance.js"
 export default {
     name: 'chapter',
     mounted: function() {
         // this.$emit('select',"business-chapter-sidebar")
+        let _this = this;
+        _this.list();
+    },
+    methods: {
+        /**
+       * 列表查询
+       */
+      list(page) {
+        let _this = this;
+        Http({
+            url: 'http://127.0.0.1:9000/business/admin/list',
+            method: 'get'
+        }).then((response) => {
+            console.log("查询大章列表结果：",response);
+        })
+      },
     }
 }
 </script>
