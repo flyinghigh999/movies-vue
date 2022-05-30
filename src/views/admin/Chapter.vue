@@ -96,10 +96,14 @@ export default {
             let _this = this;
             Http({
                 url: 'http://127.0.0.1:9000/business/admin/list',
-                method: 'get'
+                method: 'post',
+                params: {
+                    pageNum: 1,
+                    pageSize: 10
+                }
             }).then((response) => {
-                console.log("查询大章列表结果：", response);
-                _this.chapters = response.data; 
+                console.log("查询大章列表结果：", response.data.list);
+                _this.chapters = response.data.list; 
             })
         },
     }
